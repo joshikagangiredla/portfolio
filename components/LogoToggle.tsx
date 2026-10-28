@@ -16,7 +16,7 @@ export default function LogoToggle({ light, dark }: { light: SiteImage; dark: Si
             { key: "dark", image: dark },
           ].map(({ key, image }) =>
             image.exists ? (
-              <Image key={key} src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="360px" quality={90} hidden={mode !== key} />
+              <Image key={key} src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="360px" hidden={mode !== key} />
             ) : (
               <div key={key} className="placeholder" role="img" aria-label={image.alt} hidden={mode !== key}>
                 <span aria-hidden="true">{key} logo</span>

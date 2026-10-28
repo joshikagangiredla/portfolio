@@ -30,7 +30,7 @@ export default function Picture({
     );
   }
   return fill ? (
-    <Image src={image.src} alt={image.alt} fill sizes={sizes} quality={90} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : undefined} className={className} />
+    <Image src={image.src} alt={image.alt} fill sizes={sizes} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : undefined} className={className} />
   ) : (
     <Image
       src={image.src}
@@ -38,7 +38,7 @@ export default function Picture({
       width={image.width}
       height={image.height}
       sizes={sizes}
-      quality={90}
+     
       loading={eager ? "eager" : "lazy"}
       fetchPriority={eager ? "high" : undefined}
       className={className}
