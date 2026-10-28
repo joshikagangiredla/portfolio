@@ -1,6 +1,6 @@
 ---
 label: "About me"
-statement: "Hi, I'm Joshika. I believe confusion is a failure in the system, not the user."
+statement: "Hi, I'm Joshika. An avid overthinker, which turns out to be very good for design."
 
 # Photo strip at the top of the page. Save photos in public/images/about/
 # and set each src, e.g. "/images/about/portrait.jpg". Empty src shows a placeholder.
@@ -45,6 +45,6 @@ seo:
   description: "Joshika Gangiredla studied Digital Technology & Culture at Washington State University and designs across visual identity, interfaces and front-end code."
 ---
 
-I studied Digital Technology & Culture at Washington State University, focused on web design, with a certificate in graphic design. I move between visual identity, interface design, and front-end code, and I care most about clarity, accessibility, and the systems behind a good experience.
+I studied Digital Technology & Culture at Washington State University, focused on web design, with a certificate in graphic design. I move between visual identity, interface design and front-end code. I've taken an app from notepad sketches to a live React build, reorganized a nonprofit's website around how its members actually think, and led a student agency's web team. Through all of it, I care most about clarity, accessibility and the systems behind a good experience.
 
-I am looking for UX Designer and Product Designer positions where I can grow as a designer and learn from my peers.
+I'm looking for my first job in UX or product design, on a team where I can ship real work, keep learning from the people around me, and help make products easier to use.
