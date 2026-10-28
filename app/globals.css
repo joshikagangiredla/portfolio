@@ -708,15 +708,8 @@ main:focus {
 .logo-toggle figcaption {
   font-size: 12px;
   line-height: 1.5;
+  text-align: center;
   color: var(--color-muted);
-}
-
-.figure--narrow figcaption {
-  text-align: center;
-}
-
-.row--side .figure--narrow figcaption {
-  text-align: center;
 }
 
 /* ClanAway light/dark logo switch */

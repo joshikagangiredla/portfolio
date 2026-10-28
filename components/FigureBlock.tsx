@@ -4,9 +4,8 @@ import Picture from "./Picture";
 // One or more images with an optional caption. Images show at their own size,
 // up to the full width of the page, so small screenshots aren't blown up.
 export default function FigureBlock({ figure }: { figure: Figure }) {
-  const narrow = figure.images.every((i) => i.exists && i.width < 900);
   return (
-    <figure className={`figure ${narrow ? "figure--narrow" : ""}`}>
+    <figure className="figure">
       <div className="figure__images">
         {figure.images.map((image) => (
           <div key={image.src} className="figure__image" style={image.exists ? { maxWidth: image.width } : undefined}>
