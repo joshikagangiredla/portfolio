@@ -114,6 +114,24 @@ a {
 }
 
 #top,
+/* Custom cursor: the top-bar flower in lime, muted green over anything clickable. */
+:root {
+  --cursor: url("/cursor.svg") 14 14, auto;
+  --cursor-link: url("/cursor-hover.svg") 14 14, pointer;
+}
+
+html {
+  cursor: var(--cursor);
+}
+
+a,
+button,
+summary,
+label[for],
+[role="button"] {
+  cursor: var(--cursor-link);
+}
+
 main:focus {
   outline: none;
 }
@@ -318,7 +336,7 @@ main:focus {
   border-radius: 50%;
   background: var(--color-accent);
   color: var(--color-ink);
-  cursor: pointer;
+  cursor: var(--cursor-link);
 }
 
 .back-to-top:hover {
@@ -753,7 +771,7 @@ main:focus {
   font-family: var(--font-mono);
   font-size: 14px;
   text-transform: uppercase;
-  cursor: pointer;
+  cursor: var(--cursor-link);
 }
 
 .logo-toggle__switch button[aria-pressed="true"] {
@@ -1117,7 +1135,7 @@ main:focus {
     border: 0;
     background: transparent;
     color: var(--color-text);
-    cursor: pointer;
+    cursor: var(--cursor-link);
   }
 
   .phone-menu__panel {
