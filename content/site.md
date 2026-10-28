@@ -7,11 +7,11 @@ bio: "She graduated from Washington State University with a degree in web design
 # ── Social links (sidebar on desktop, footer on tablet and phone) ──
 # Paste each link between the quotes. Empty links show as plain text until filled in.
 links:
-  - { label: "Resume", url: "" }        # e.g. "/resume.pdf" after adding the PDF to the public folder
-  - { label: "LinkedIn", url: "" }
-  - { label: "Email", url: "" }         # e.g. "mailto:you@example.com"
-  - { label: "Instagram", url: "" }
-  - { label: "TikTok", url: "" }
+  - { label: "Resume", url: "https://drive.google.com/file/d/11bWQeuPT1B3CjgH59MiZlz3rpOiJP2C0/view?usp=drive_link" }
+  - { label: "LinkedIn", url: "https://www.linkedin.com/in/joshika-gangiredla" }
+  - { label: "Email", url: "mailto:joshikagangiredla345@gmail.com" }
+  - { label: "Instagram", url: "https://www.instagram.com/joshicancreate?rpxt=b3VrcTRpeWRteHNo" }
+  - { label: "TikTok", url: "https://www.tiktok.com/@joshicancreate" }
 
 # ── Footer note ─────────────────────────────────────────
 made_in: "Made in GitHub with love"
