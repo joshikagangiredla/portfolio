@@ -817,15 +817,49 @@ main:focus {
 /* ── About ────────────────────────────────────────────── */
 
 .about__photos {
-  display: flex;
-  gap: 16px;
-  padding-top: 18px;
-  overflow-x: auto;
-  scrollbar-width: none;
+  padding: 18px 0;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-border);
 }
 
-.about__photos::-webkit-scrollbar {
-  display: none;
+/* The track holds the photos twice; sliding it left by half loops the strip
+   seamlessly, and the photos slip out of view behind the sidebar edge. */
+.about__track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  padding-right: 16px;
+  animation: photo-strip 110s linear infinite;
+}
+
+.about__photos:hover .about__track {
+  animation-play-state: paused;
+}
+
+@keyframes photo-strip {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* With reduced motion the strip stays still and scrolls sideways instead. */
+@media (prefers-reduced-motion: reduce) {
+  .about__photos {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .about__photos::-webkit-scrollbar {
+    display: none;
+  }
+
+  .about__track {
+    animation: none;
+  }
+
+  .about__photo[aria-hidden] {
+    display: none;
+  }
 }
 
 .about__photo {
@@ -1014,8 +1048,12 @@ main:focus {
 
   /* About */
   .about__photos {
+    padding: 24px 0 24px var(--gutter);
+  }
+
+  .about__track {
     gap: 12px;
-    padding: 24px var(--gutter) 0;
+    padding-right: 12px;
   }
 
   .about__photo {
