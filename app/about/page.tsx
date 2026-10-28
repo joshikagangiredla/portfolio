@@ -11,12 +11,23 @@ export default function AboutPage() {
   const about = getAbout();
   return (
     <div className="about">
-      <div className="about__photos" tabIndex={0} role="region" aria-label="Photos of Joshika">
-        {about.photos.map((photo, i) => (
-          <div key={i} className="about__photo">
-            <Picture image={{ ...photo, width: 195, height: 260 }} label="Photo" fill sizes="200px" eager={i < 3} />
-          </div>
-        ))}
+      <div className="about__photos" role="region" aria-label="Photos of Joshika">
+        <div className="about__track">
+          {/* The list repeats once so the strip can loop without a visible jump. */}
+          {[0, 1].map((copy) =>
+            about.photos.map((photo, i) => (
+              <div key={`${copy}-${i}`} className="about__photo" aria-hidden={copy === 1 || undefined}>
+                <Picture
+                  image={{ ...photo, alt: copy === 1 ? "" : photo.alt, width: 195, height: 260 }}
+                  label="Photo"
+                  fill
+                  sizes="200px"
+                  eager={copy === 0 && i < 6}
+                />
+              </div>
+            )),
+          )}
+        </div>
       </div>
       <div className="about__content">
         <div className="about__main">
