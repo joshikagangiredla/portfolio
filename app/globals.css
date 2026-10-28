@@ -384,6 +384,14 @@ main:focus {
   text-decoration: none;
   border-radius: 4px;
   overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover pop: the card lifts and its photo zooms in slightly. */
+.card__link:hover,
+.card__link:focus-visible {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
 }
 
 .card__image {
@@ -394,6 +402,12 @@ main:focus {
 
 .card__image img {
   object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card__link:hover .card__image img,
+.card__link:focus-visible .card__image img {
+  transform: scale(1.04);
 }
 
 .card__image .placeholder {
