@@ -1,7 +1,7 @@
 ---
 # ── Sidebar (desktop) and intro (tablet and phone) ──────
 name: "Joshika Gangiredla"
-bio_lead: "Joshika is a designer who serves its users through empathy, connection, and a good conversation."
+bio_lead: "Joshika is a designer who serves her users through empathy, connection, and a good conversation."
 bio: "She graduated from Washington State University with a degree in web design. Her habitat is mostly at a small cozy bookstore with her nose in the latest Chloe Gong release."
 
 # ── Social links (sidebar on desktop, footer on tablet and phone) ──
