@@ -114,7 +114,7 @@ a {
 }
 
 #top,
-/* Custom cursor: the top-bar flower in lime, muted green over anything clickable. */
+/* Custom cursor: the top-bar flower in lime, coral over anything clickable. */
 :root {
   --cursor: url("/cursor.svg") 14 14, auto;
   --cursor-link: url("/cursor-hover.svg") 14 14, pointer;
