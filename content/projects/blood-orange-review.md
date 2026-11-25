@@ -4,7 +4,7 @@ title: "Blood Orange Review"
 slug: "blood-orange-review"
 summary: "As a web design intern, I published 15–20 pieces of issue 18.1 in WordPress and proposed a CSS fix that made fiction formatting consistent."
 hook: "Every story arrives in its own shape. The page has to honor it."
-order: 4
+order: 5
 featured: true
 card: "Web design · Editorial"        # Small label under the title on the Work grid
 status: draft

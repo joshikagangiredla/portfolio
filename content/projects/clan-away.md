@@ -4,7 +4,7 @@ title: "ClanAway"
 slug: "clan-away"
 summary: "A logo and visual identity for a collaborative, AI-powered travel planner, built around birds that migrate together."
 hook: "Birds never migrate alone."
-order: 5
+order: 6
 featured: true
 card: "Graphic design · Logo"        # Small label under the title on the Work grid
 status: draft

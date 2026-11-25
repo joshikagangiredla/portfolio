@@ -4,7 +4,7 @@ title: "Keep Em' Swimmin'"
 slug: "keep-em-swimmin"
 summary: "An environmental awareness campaign that uses playful illustration and bright color to show why salmon matter to the Palouse."
 hook: "Most environmental campaigns try to scare you. This one wanted you to root for the salmon."
-order: 6
+order: 7
 featured: true
 card: "Graphic design · Campaign"        # Small label under the title on the Work grid
 status: draft

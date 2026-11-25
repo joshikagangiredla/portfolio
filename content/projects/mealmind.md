@@ -4,7 +4,7 @@ title: "Mealmind"
 slug: "mealmind"
 summary: "A meal planning app that decides what's for dinner before you have to, designed in Figma and shipped as a live web app."
 hook: "It's 6 p.m., everyone's hungry, and nobody knows what's for dinner."
-order: 1
+order: 3
 featured: true
 card: "UX case study · Mobile app"        # Small label under the title on the Work grid
 status: draft
