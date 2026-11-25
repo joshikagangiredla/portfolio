@@ -4,7 +4,7 @@ title: "Club Studio"
 slug: "club-studio"
 summary: "At WSU's student-run design agency, I grew from graphic designer to web designer to project manager, working on real client briefs."
 hook: "Real clients, real deadlines, and a brief that can change overnight."
-order: 3
+order: 4
 featured: true
 card: "Web design · Graphic design"        # Small label under the title on the Work grid
 status: draft

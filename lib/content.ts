@@ -198,7 +198,7 @@ function buildRows(markdown: string, chapterLayout: string): Row[] {
 
 function parseChapters(body: string): { chapters: Chapter[]; sourcesHtml?: string } {
   let sourcesHtml: string | undefined;
-  const sourcesMatch = body.match(/\n-{3,}\s*\n+###\s+Sources\s*\n([\s\S]*)$/);
+  const sourcesMatch = body.match(/\n-{3,}\s*\n+###\s+(?:Notes and )?[Ss]ources\s*\n([\s\S]*)$/);
   if (sourcesMatch) {
     sourcesHtml = html(toHast(sourcesMatch[1]).children);
     body = body.slice(0, sourcesMatch.index);
